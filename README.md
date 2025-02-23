@@ -34,3 +34,9 @@ An AI-powered medical chatbot that diagnoses symptoms, provides recommendations,
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/MedBot-AI.git
 cd MedBot-AI
+
+---
+
+### 🔹 2️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
