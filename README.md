@@ -28,15 +28,29 @@ An AI-powered medical chatbot that diagnoses symptoms, provides recommendations,
 ┣ 📜 `README.md` - **This Document**  
 
 ---
-
 ## 📌 Installation
-### 🔹 **1️⃣ Clone the Repo**
+
+### 1️⃣ Clone the Repo
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/MedBot-AI.git
 cd MedBot-AI
+```
 
----
-
-### 🔹 2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+### 3️⃣ Set Up Environment Variables
+1. Create a `.env` file in the project folder.
+2. Add your API key:
+```ini
+GEMINI_API_KEY=your_api_key_here
+```
+
+### 4️⃣ Run the Chatbot
+```bash
+streamlit run app.py
+```
+
+
